@@ -14,7 +14,7 @@ const auth = require("./middlewares/auth.js");
 const NotFoundError = require("./utils/NotFoundError");
 const { requestLogger, errorLogger } = require("./middlewares/logger");
 
-const { PORT = 3000 } = process.env;
+const { PORT = 3005 } = process.env;
 const app = express();
 
 const validateUser = celebrate({
